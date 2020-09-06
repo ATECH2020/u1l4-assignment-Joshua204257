@@ -14,11 +14,16 @@ class Timestamps {
         int minutes2 = scanner.nextInt();
         int seconds2 = scanner.nextInt();
 
+        //
+        int hoursR = hours2 - hours1;
+        int minutesR = minutes2 - minutes1;
+        int secondsR = seconds2 - seconds1;
+        int hourConv = hoursR * 3600;
+        int minutesConv = minutesR * 60;
+        int timeDiff = hourConv + minutesConv + secondsR;
 
-        /*
-         *  your code goes here
-         */
-
+        //Printing.
+        System.out.print("The time that had passed in seconds is " + timeDiff);
 
         // closing the scanner object
         scanner.close();

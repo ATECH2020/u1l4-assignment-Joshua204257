@@ -7,12 +7,18 @@ class StudentDesks {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
         
+        //your code goes here
+        int totalStudents = a + b + c;
+        int divide = totalStudents / 2;
+        int divideR = totalStudents % 2;
+        int desks = divide + divideR;
 
-        /*
-         *  your code goes here
-         */
-
+        //Printing
+        System.out.print("The total desks needed is " + desks);
 
         // closing the scanner object
         scanner.close();
