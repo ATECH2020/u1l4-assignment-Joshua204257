@@ -15,7 +15,7 @@ class AnalogClock {
         int hourDiff = angle - hourAngle;
         int minutes = hourDiff * 2;
         int degreeMin = minutes * 6;
-        System.out.print("The degrees that passed are " + degreeMin);
+        System.out.print(degreeMin);
 
         // closing the scanner object
         scanner.close();

@@ -23,7 +23,7 @@ class Timestamps {
         int timeDiff = hourConv + minutesConv + secondsR;
 
         //Printing.
-        System.out.print("The time that had passed in seconds is " + timeDiff);
+        System.out.print(timeDiff);
 
         // closing the scanner object
         scanner.close();

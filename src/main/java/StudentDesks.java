@@ -18,7 +18,7 @@ class StudentDesks {
         int desks = divide + divideR;
 
         //Printing
-        System.out.print("The total desks needed is " + desks);
+        System.out.print(desks);
 
         // closing the scanner object
         scanner.close();
