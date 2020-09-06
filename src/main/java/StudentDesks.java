@@ -12,13 +12,10 @@ class StudentDesks {
         int c = scanner.nextInt();
         
         //your code goes here
-        int totalStudents = a + b + c;
-        int divide = totalStudents / 2;
-        int divideR = totalStudents % 2;
-        int desks = divide + divideR;
+        int totalDesks = ((a/2) + (a%2)) + ((b/2) + (b%2)) + ((c/2) + (c%2));
 
         //Printing
-        System.out.print(desks);
+        System.out.print(totalDesks);
 
         // closing the scanner object
         scanner.close();
