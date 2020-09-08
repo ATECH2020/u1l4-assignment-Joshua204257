@@ -7,12 +7,15 @@ class StudentDesks {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
         
+        //your code goes here
+        int totalDesks = ((a/2) + (a%2)) + ((b/2) + (b%2)) + ((c/2) + (c%2));
 
-        /*
-         *  your code goes here
-         */
-
+        //Printing
+        System.out.print(totalDesks);
 
         // closing the scanner object
         scanner.close();
